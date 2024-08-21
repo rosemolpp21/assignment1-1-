@@ -1,0 +1,72 @@
+body {
+    object-fit: contain;
+    background-image: url('bg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+}
+
+button {
+    color: rgb(94, 108, 172);
+    background-color: #8a96b1;
+    /* border-radius: 10%; */
+    padding: 5px 5px;
+    margin-top: 10px;
+    /* border: none; */
+    border-top: 20px;
+    text-align: center;
+    font-size: 10px;
+}
+
+button a {
+    color: beige; 
+    text-decoration: none; 
+    display: block;
+}
+
+section {
+    padding-top: 20px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+p {
+    text-indent: 5px;
+    text-align: center;
+    color: antiquewhite;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 20px;
+}
+
+.s1 {
+    /* border: 2px solid antiquewhite; */
+    padding: 20px;
+    margin-bottom: 20px;
+    /* max-width: 800px; */
+    width: 90%;
+    box-sizing: border-box;
+}
+.nav-container {
+    width: 550px;  
+    height: 60px;  
+    background-color:transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px; 
+    border-radius: 10px; 
+}
+
+nav a{
+    margin-right: 20px;
+    margin-left: 20px;
+}

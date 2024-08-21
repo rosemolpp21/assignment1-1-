@@ -1,6 +1,6 @@
 body {
+    background-image: url("../image/bg.jpg");
     object-fit: contain;
-    background-image: url('bg.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     height: 100vh;
@@ -41,7 +41,7 @@ p {
     text-align: center;
     color: rgb(33, 31, 29);
     font-weight: bold;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: Cambria;
     margin: 20px;
     background-color: rgb(205, 205, 222);
 }
@@ -51,7 +51,8 @@ p {
     padding: 20px;
     margin-bottom: 20px;
     width: 90%;
-    box-sizing: border-box;
+   
+   
 }
 .nav-container {
     width: 550px;  
@@ -67,4 +68,17 @@ p {
 nav a{
     margin-right: 20px;
     margin-left: 20px;
+    color: aliceblue;font-size: 20px;
+}
+blockquote{
+    color: azure;
+}
+address{
+    color: aliceblue;
+}
+h2{
+    color: aliceblue;
+}
+span{
+    color: rgb(201, 106, 190);
 }
